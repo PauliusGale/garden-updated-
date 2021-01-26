@@ -1,0 +1,177 @@
+.container{
+	width:960px;
+	margin:0px auto;
+
+}
+
+.name{
+ background: Ivory;
+ border-style: solid;
+ font-style: italic;
+}
+.hweather{
+	background: mediumPurple;
+}
+.weather{
+	margin-top: 10px;
+	background: Lavender;
+	border-style: solid;
+}
+.recom{
+	margin-top: 10px;
+	background: mistyrose;
+	border-style: solid;
+}
+.recom-h2{
+	background: LightSalmon;
+}
+.weathertable{
+	height:100px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+h2{
+	text-align: center;
+	border-style: solid;
+	line-height: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+}
+table {
+	height:100px;
+	width:900px;
+	margin-left: 30px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+table, th, td {
+  border: 2px solid black;
+}
+.table-time{
+	text-align: center;
+}
+th{
+	background-color: mediumPurple;
+}
+.table-degrees{
+	height: 50px;
+	font-size: 30px;
+	background-color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.table-datecond{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.table-other{
+	background-color: mediumPurple;
+}
+.hmeeting{
+	background:peru;
+}
+.meetings{
+	margin-top: 10px;
+	background: AntiqueWhite;
+	border-style: solid;
+}
+.ulmeeting{
+	height: 100px;
+  overflow-y: auto;
+}
+.meet-time{
+	margin-left: 50px;
+	font-weight: bold;
+}
+.htodolist{
+	background: skyblue;
+}
+.todolist{
+	margin-top: 10px;
+	background: AliceBlue;
+	border-style: solid;
+}
+.checktodolist{
+	height: 100px;
+  overflow-y: auto;
+}
+.todocheck{
+	margin-left: 30px;
+}
+body{
+	background: whitesmoke;
+}
+.plus{
+	width: 40px;
+	height: 40px;
+	background: url("first.svg");
+	background-color: white;
+	margin-left: 30px;
+}
+.minus{
+	width: 40px;
+	height: 40px;
+	background: url("second.svg");
+	background-color: white;
+}
+ul{
+	list-style-type: square;
+	margin-left: 10px;
+}
+.twinkle-star {
+    animation-name: OriginChanged;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    }
+.star{
+	width:120px;
+	float:left;
+	}
+
+.recom-p{
+
+	text-indent: 50px;
+}
+
+@keyframes OriginChanged {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+        }
+@media screen and (max-width:960px){
+  .container{
+	  width: 100%;
+  }
+	.name{
+	  width: 100%;
+  }
+	.weather{
+	  width: 100%;
+  }
+	.weathertable{
+	  width: 100%;
+  }
+	.meetings{
+	  width: 100%;
+  }
+	.todolist{
+	  width: 100%;
+  }
+	.recom{
+		width:100%;
+	}
+	.recom-p{
+		width:75%;
+	}
+	.star{
+		width:20%;
+	}
+	.img1{
+		width:100%;
+	}
+}
